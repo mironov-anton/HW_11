@@ -7,6 +7,7 @@
 /* Потом селекторы по тегам */
 
 html {
+    font-family: Arial;
 
 }
 
@@ -26,10 +27,11 @@ a {
 /* Колонки */
 
 .row {
+    display: flex;
 
 }
 .col {
-
+    flex: auto;
 }
 
 
@@ -40,7 +42,12 @@ a {
 }
 
 .button {
-
+    background-color: #554AF0;
+    color: white;
+    border: 0px;
+    padding: 10px 30px;
+    margin: 10px 0px;
+    border-radius: 5px;
 }
 
 /* Потом специальные правила по страничкам */
@@ -56,7 +63,10 @@ a {
 /* Страничка жанров и тегов */
 
 .genre-first {
-
+    margin: 10px 0px;
+    padding: 5px 5px;
+    background-color: #E1F5EA;
+    border-radius: 5px;
 }
 
 .genre-second {
